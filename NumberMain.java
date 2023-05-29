@@ -55,9 +55,9 @@ public boolean isPrime()
 	return true;
 		
 }
-public boolean isArmstrong()
+public boolean isArmstrong(int num)
 {
-	double temp=num,rem,sum=0;
+	int temp=num,rem,sum=0;
 	 while(temp>0)
 	 {
 		 rem=temp%10;
@@ -85,7 +85,7 @@ public class NumberMain
 		System.out.println("Odd = "+obj.isOdd());
 		System.out.println("Even = "+obj.isEven());
 		System.out.println("Prime = "+obj.isPrime());
-		System.out.println("Armstrong = "+obj.isArmstrong());
+		System.out.println("Armstrong = "+obj.isArmstrong(153));
 		
 	
 	}
